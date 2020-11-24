@@ -192,10 +192,11 @@ section {
     max-width: 500px;
   }
 
-  .title-intro {
-    font-size: 24px;
+  .subtitle {
+    font-size: 16px;
   }
-  .title-how {
+
+  .title-intro {
     font-size: 24px;
   }
   .title-more {
@@ -203,7 +204,9 @@ section {
   }
 
   .text {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 25px;
   }
   .text-how {
     padding: 0 15px;
@@ -293,6 +296,11 @@ section {
     font-size: 17px;
   }
 
+  .how__inner--item__img {
+    width: 44px;
+    height: 39px;
+  }
+
   .footer__img {
     display: block;
     width: 217px;
@@ -322,6 +330,11 @@ section {
     max-width: 300px;
   }
 
+  .subtitle {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
   .title {
     font-family: "Arial";
     font-style: normal;
@@ -348,6 +361,7 @@ section {
     font-size: 12px;
     line-height: 15px;
     color: #5E5E5E;
+    padding-bottom: 15px;
   }
   .text-how {
     padding: 0 15px;

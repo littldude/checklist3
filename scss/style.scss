@@ -180,15 +180,16 @@ section {
     }
 }
 /*ADAPTIVE*/
+
 @media (max-width:812px) {
     .container {
         max-width: 500px;
     }
+    .subtitle {
+        font-size: 16px;
+    }
     .title {
         &-intro {
-            font-size: 24px;
-        }
-        &-how {
             font-size: 24px;
         }
         &-more {
@@ -196,7 +197,9 @@ section {
         }
     }
     .text {
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 19px;
+        padding-bottom: 25px;
         &-how {
             padding: 0 15px;
         }
@@ -267,9 +270,7 @@ section {
 @media (max-width:568px) {
     .container {
         max-width: 400px;
-    }
-    
-    
+    }    
 }
 @media (max-width:414px) {
     .container {
@@ -288,6 +289,16 @@ section {
             width: 200px;
             padding: 17px 0px;
             font-size: 17px;
+        }
+    }
+    .how {
+        &__inner {
+            &--item {
+                &__img {
+                    width: 44px;
+                    height: 39px;
+                }
+            }
         }
     }
     .footer {
@@ -317,11 +328,14 @@ section {
             }
         }
     }
-    
 }
 @media(max-width:375px) {
     .container {
         max-width: 300px;
+    }
+    .subtitle {
+        font-size: 12px;
+        line-height: 15px;
     }
     .title {
         font-family: 'Arial';
@@ -348,6 +362,7 @@ section {
         font-size: 12px;
         line-height: 15px;
         color: #5E5E5E;
+        padding-bottom: 15px;
         &-how {
             padding: 0 15px;
         }
@@ -418,7 +433,6 @@ section {
             }
         }
     }
-    
 }
 
 
